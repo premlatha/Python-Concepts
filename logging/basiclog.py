@@ -8,7 +8,7 @@ import logging
 
 #Configure the logging level to DEBUG and save in file
 #Log attributes can be found at 'https://docs.python.org/3/library/logging.html#logrecord-attributes'
-logging.basicConfig(filename='example.log',level=logging.DEBUG,format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(filename='logging/example.log',level=logging.DEBUG,format='%(asctime)s:%(levelname)s:%(message)s')
 
 
 def add(x,y):
